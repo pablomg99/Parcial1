@@ -48,7 +48,6 @@ int tamanoSegmento(char primerCaracter, char segundoCaracter, int tamanoMaterias
         }
         if(flag){
             contador++;
-            cout<<*(arreglo+i);
         }
 
         if(*(arreglo+i+1)==(primerCaracter+sumaChar1) and *(arreglo+i+2)==(segundoCaracter+sumaChar2)){
@@ -57,12 +56,12 @@ int tamanoSegmento(char primerCaracter, char segundoCaracter, int tamanoMaterias
         }
     }
     return contador;
-    /*auxArray=new char[contador];
+}
 
-    for(int i=inicio; i<(inicio+(contador-4)); i++){
-       *(auxArray+i)=*(arreglo+i);
-    }*/
-
-
-    //return arregloAux;
+void crearArregloSegmentado(char* arregloCompleto, char* arregloAux, int inicio, int tamano){
+    for(int i=inicio; i<(inicio+(tamano-5)); i++){
+        *(arregloAux+i)=*(arregloCompleto+i);
+        cout<<*(arregloAux+i);
+    }
+    cout<<endl<<endl;
 }

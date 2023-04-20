@@ -39,6 +39,11 @@ int main(){
     cin>>semestre;
 
     int tamanoSegmentoMaterias=tamanoSegmento(110, semestre, materiasSize, materiasArray, 0, 1, &inicioSegmentoMaterias);
+    materiasAux=new char[tamanoSegmentoMaterias];
+
+    cout<<endl<<"Materias del semestre "<<semestre<<" (codigo_#creditos_horas docente_nombre): "<<endl;
+
+    crearArregloSegmentado(materiasArray, materiasAux, inicioSegmentoMaterias, tamanoSegmentoMaterias);
 
 
     //=========================== DELETE =====================================

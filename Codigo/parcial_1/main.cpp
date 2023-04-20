@@ -39,12 +39,17 @@ int main(){
     cin>>semestre;
 
     int tamanoSegmentoMaterias=tamanoSegmento(110, semestre, materiasSize, materiasArray, 0, 1, &inicioSegmentoMaterias);
-    materiasAux=new char[tamanoSegmentoMaterias];
+
+    materiasAux=new char[tamanoSegmentoMaterias]; //asignacion de memoria dinamica al arreglo auxiliar
 
     cout<<endl<<"Materias del semestre "<<semestre<<" (codigo_#creditos_horas docente_nombre): "<<endl;
 
     crearArregloSegmentado(materiasArray, materiasAux, inicioSegmentoMaterias, tamanoSegmentoMaterias);
 
+    for(int i=0; i<tamanoSegmentoMaterias; i++){
+        cout<<*(materiasAux+i);
+    }
+    cout<<endl;
 
     //=========================== DELETE =====================================
     delete[] materiasArray;

@@ -60,8 +60,6 @@ int tamanoSegmento(char primerCaracter, char segundoCaracter, int tamanoMaterias
 
 void crearArregloSegmentado(char* arregloCompleto, char* arregloAux, int inicio, int tamano){
     for(int i=inicio; i<(inicio+(tamano-5)); i++){
-        *(arregloAux+i)=*(arregloCompleto+i);
-        cout<<*(arregloAux+i);
+        *(arregloAux+(i-inicio))=*(arregloCompleto+i);
     }
-    cout<<endl<<endl;
 }

@@ -1,0 +1,55 @@
+n1
+2536101_3_4_descubriendo la fisica
+2537101_1_2_vivamos la universidad
+2538101_1_4_ingles I
+2555101_3_4_algebra y trigonometria
+2555121_3_4_geometria vectorial
+2555131_3_4_calculo diferencial
+2598511_4_6_informatica I
+n2
+2536201_3_4_fisica mecanica
+2538201_1_4_ingles II
+2539101_3_4_lectoescritura
+2555221_3_4_algebra lineal
+2555231_3_4_calculo integral
+2598521_4_6_informaticaII
+2598522_1_2_intro. a la ing. electronica
+n3
+2517362_1_2_formacion ciudadana y constitucional
+2536301_3_4_fisica de ondas moderna
+2538301_1_4_ingles III
+2555331_3_4_calculo vectorial
+2598531_3_4_ecuaciones diferenciales
+2598532_4_6_circuitos electricos I
+2599431_3_4_probabilidad y estadistica
+n4
+2536311_3_4_fisica de campos
+2538401_1_4_ingles IV
+2598541_3_4_matematicas especiales
+2598542_4_6_circuitos electricos II
+2598543_3_4_matematicas discretas
+2598544_3_4_metodos numericos
+n5
+2536502_2_6_laboratorio integrado de fisica
+2538501_1_4_ingles V
+2598551_3_4_fisica del estado solido
+2598552_4_6_electronica analogica I
+2598553_4_6_electronica digital I
+2598554_3_4_electromagnetismo
+n6
+2538601_1_4_ingles VI
+2598561_4_6_electronica analogica II
+2598562_4_6_electronica digital II
+2598563_4_6_sistemas de control continuo
+2599461_4_6_tratamiento de señales I
+n7
+2598571_4_6_electronica digital III
+2598572_4_6_tratamiento de señales II
+2598573_4_6_acondicionamiento de señales
+2598575_4_6_diseño de productos electronicos
+n8
+2598581_4_6_electronica de potencia
+2599462_3_4_redes de computadores
+2599475_4_6_procesamiento digital de señales
+n9
+2598591_1_2_seminario ingenieria electronica
